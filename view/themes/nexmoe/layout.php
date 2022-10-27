@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 		<title><?php e($title.' - '.config('site_name'));?></title>
-		<link rel="stylesheet" href="/statics/themes/nexmoe/css/forkGh.css" />
 		<!--Safari浏览器-->
 		<link rel="apple-touch-icon" sizes="64x64" href="/statics/themes/nexmoe/img/OneIndexM.svg">
 		<!--Chrome等浏览器-->
@@ -16,8 +15,8 @@
         <script crossorigin="anonymous" integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr+h5UfruuRL/aORyw+5+HZoU6e" src="https://lib.baomitu.com/aplayer/1.10.1/APlayer.min.js"></script>
         <!-- 音乐加载插件 -->
         <!-- <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script> -->
-        <script src="/statics/themes/nexmoe/Meting.min.js"></script>
-        <link crossorigin="anonymous" integrity="sha384-aF/tfXdmgYOOFoO7TFEEeEtmOViz6SCbCdzdCNWIrfjlQgOMDA8BWnzE6g3Cm96v" href="https://lib.baomitu.com/mdui/0.4.3/css/mdui.mini.css" rel="stylesheet">
+<!--        <script src="/statics/themes/nexmoe/js/Meting.min.js"></script> -->
+        <link crossorigin="anonymous"href="https://lib.baomitu.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
 		<style>
 			body {
 				background-color: #f2f5fa;
@@ -144,8 +143,6 @@
         <script crossorigin="anonymous" integrity="sha384-GXQQyAWEQJOklZd/6CWH3BbffdVqZ85WoDiENXxSqLpjrdWzpX15CKmya8HIdM4r" src="https://lib.baomitu.com/mdui/0.4.3/js/mdui.min.js"></script>
 	</head>
 	<body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
-		<a class="github-fork-ribbon" href="https://github.com/Mintimate/OneindexM" data-ribbon="Fork me on GitHub"
-			title="Fork me on GitHub">Fork me on GitHub</a>
 		<div class="mdui-container">
 			<div class="mdui-container-fluid">
 				<div class="mdui-toolbar nexmoe-item">
@@ -159,9 +156,6 @@
 			</div>
 			<?php view::section('content');?>
 		</div>
-		<meting-js server="netease" type="playlist" id="2485662712" fixed="true">
-		</meting-js>
-		<!-- id改成自己的歌单号 -->
 		<script src="/statics/themes/nexmoe/js/personjs.js">
 		</script>
 		<script src="/statics/themes/nexmoe/js/nexmoe.js"></script>
